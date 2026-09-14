@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_small_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Dynamic Theme & Motif Canvas Background -->
+    <ImageView
+        android:id="@+id/widget_small_bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Widget Arka Planı"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_background" />
+
+    <!-- Main Content Container -->
+    <LinearLayout
+        android:id="@+id/widget_small_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- Top Header Row: Mosque Icon, City Name, Refresh Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widget_small_icon_mosque"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="Cami"
+                android:src="@drawable/ic_mosque" />
+
+            <TextView
+                android:id="@+id/widget_small_city_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="İstanbul"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/widget_small_button_refresh"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Yenile"
+                android:padding="2dp"
+                android:src="@drawable/ic_refresh" />
+        </LinearLayout>
+
+        <!-- Center Card: Next Prayer & Countdown -->
+        <FrameLayout
+            android:id="@+id/widget_small_next_card"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/widget_small_next_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Sıradaki Vakit Kartı"
+                android:scaleType="fitXY"
+                android:src="@drawable/widget_badge_next" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/widget_small_next_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SIRADAKİ VAKİT"
+                    android:textColor="#F59E0B"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/widget_small_next_name_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="İKİNDİ 16:42"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/widget_small_countdown_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="01 sa 24 dk kaldı"
+                    android:textColor="#F59E0B"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Bottom Row: Current Prayer & Motif Badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/widget_small_current_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Şu an: ÖĞLE (13:12)"
+                android:textColor="#94A3B8"
+                android:textSize="9.5sp" />
+
+            <TextView
+                android:id="@+id/widget_small_motif_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="✦ Selçuklu"
+                android:textColor="#10B981"
+                android:textSize="8.5sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

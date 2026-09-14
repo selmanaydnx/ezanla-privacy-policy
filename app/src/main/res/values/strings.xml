@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ezanla</string>
+    <string name="widget_name">Ezanla Widget</string>
+    <string name="widget_description">Şu anki namaz vaktini ve sonraki vakte kalan süreyi ana ekranınızda gösterir.</string>
+    <string name="widget_compact_name">Ezanla Mini</string>
+    <string name="widget_compact_description">Sıradaki vakti ve kalan süreyi gösteren kompakt mini ana ekran widget\'ı.</string>
+</resources>

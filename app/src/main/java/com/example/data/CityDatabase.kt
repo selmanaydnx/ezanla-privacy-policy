@@ -1,0 +1,107 @@
+package com.example.data
+
+import com.example.model.City
+
+object CityDatabase {
+    val cities: List<City> = listOf(
+        City("01", "Adana", "Türkiye", 37.0000, 35.3213, 3.0),
+        City("02", "Adıyaman", "Türkiye", 37.7648, 38.2786, 3.0),
+        City("03", "Afyonkarahisar", "Türkiye", 38.7507, 30.5567, 3.0),
+        City("04", "Ağrı", "Türkiye", 39.7191, 43.0503, 3.0),
+        City("05", "Amasya", "Türkiye", 40.6534, 35.8331, 3.0),
+        City("06", "Ankara", "Türkiye", 39.9334, 32.8597, 3.0),
+        City("07", "Antalya", "Türkiye", 36.8969, 30.7133, 3.0),
+        City("08", "Artvin", "Türkiye", 41.1828, 41.8183, 3.0),
+        City("09", "Aydın", "Türkiye", 37.8560, 27.8416, 3.0),
+        City("10", "Balıkesir", "Türkiye", 39.6484, 27.8826, 3.0),
+        City("11", "Bilecik", "Türkiye", 40.1451, 29.9799, 3.0),
+        City("12", "Bingöl", "Türkiye", 38.8854, 40.4983, 3.0),
+        City("13", "Bitlis", "Türkiye", 38.3938, 42.1232, 3.0),
+        City("14", "Bolu", "Türkiye", 40.7350, 31.6061, 3.0),
+        City("15", "Burdur", "Türkiye", 37.7203, 30.2908, 3.0),
+        City("16", "Bursa", "Türkiye", 40.1885, 29.0610, 3.0),
+        City("17", "Çanakkale", "Türkiye", 40.1553, 26.4142, 3.0),
+        City("18", "Çankırı", "Türkiye", 40.6013, 33.6134, 3.0),
+        City("19", "Çorum", "Türkiye", 40.5506, 34.9556, 3.0),
+        City("20", "Denizli", "Türkiye", 37.7765, 29.0864, 3.0),
+        City("21", "Diyarbakır", "Türkiye", 37.9144, 40.2306, 3.0),
+        City("22", "Edirne", "Türkiye", 41.6772, 26.5557, 3.0),
+        City("23", "Elazığ", "Türkiye", 38.6810, 39.2264, 3.0),
+        City("24", "Erzincan", "Türkiye", 39.7500, 39.5000, 3.0),
+        City("25", "Erzurum", "Türkiye", 39.9043, 41.2678, 3.0),
+        City("26", "Eskişehir", "Türkiye", 39.7767, 30.5206, 3.0),
+        City("27", "Gaziantep", "Türkiye", 37.0662, 37.3833, 3.0),
+        City("28", "Giresun", "Türkiye", 40.9128, 38.3895, 3.0),
+        City("29", "Gümüşhane", "Türkiye", 40.4600, 39.4814, 3.0),
+        City("30", "Hakkari", "Türkiye", 37.5833, 43.7333, 3.0),
+        City("31", "Hatay", "Türkiye", 36.4018, 36.3498, 3.0),
+        City("32", "Isparta", "Türkiye", 37.7648, 30.5566, 3.0),
+        City("33", "Mersin", "Türkiye", 36.8121, 34.6415, 3.0),
+        City("34", "İstanbul", "Türkiye", 41.0082, 28.9784, 3.0),
+        City("35", "İzmir", "Türkiye", 38.4192, 27.1287, 3.0),
+        City("36", "Kars", "Türkiye", 40.6167, 43.1000, 3.0),
+        City("37", "Kastamonu", "Türkiye", 41.3887, 33.7827, 3.0),
+        City("38", "Kayseri", "Türkiye", 38.7312, 35.4787, 3.0),
+        City("39", "Kırklareli", "Türkiye", 41.7333, 27.2167, 3.0),
+        City("40", "Kırşehir", "Türkiye", 39.1425, 34.1709, 3.0),
+        City("41", "Kocaeli", "Türkiye", 40.8533, 29.8815, 3.0),
+        City("42", "Konya", "Türkiye", 37.8667, 32.4833, 3.0),
+        City("43", "Kütahya", "Türkiye", 39.4167, 29.9833, 3.0),
+        City("44", "Malatya", "Türkiye", 38.3552, 38.3095, 3.0),
+        City("45", "Manisa", "Türkiye", 38.6191, 27.4289, 3.0),
+        City("46", "Kahramanmaraş", "Türkiye", 37.5858, 36.9371, 3.0),
+        City("47", "Mardin", "Türkiye", 37.3212, 40.7245, 3.0),
+        City("48", "Muğla", "Türkiye", 37.2153, 28.3636, 3.0),
+        City("49", "Muş", "Türkiye", 38.7432, 41.5064, 3.0),
+        City("50", "Nevşehir", "Türkiye", 38.6244, 34.7144, 3.0),
+        City("51", "Niğde", "Türkiye", 37.9667, 34.6833, 3.0),
+        City("52", "Ordu", "Türkiye", 40.9839, 37.8764, 3.0),
+        City("53", "Rize", "Türkiye", 41.0201, 40.5234, 3.0),
+        City("54", "Sakarya", "Türkiye", 40.7569, 30.3783, 3.0),
+        City("55", "Samsun", "Türkiye", 41.2928, 36.3313, 3.0),
+        City("56", "Siirt", "Türkiye", 37.9333, 41.9500, 3.0),
+        City("57", "Sinop", "Türkiye", 42.0231, 35.1531, 3.0),
+        City("58", "Sivas", "Türkiye", 39.7477, 37.0179, 3.0),
+        City("59", "Tekirdağ", "Türkiye", 40.9833, 27.5167, 3.0),
+        City("60", "Tokat", "Türkiye", 40.3167, 36.5500, 3.0),
+        City("61", "Trabzon", "Türkiye", 41.0015, 39.7178, 3.0),
+        City("62", "Tunceli", "Türkiye", 39.1079, 39.5401, 3.0),
+        City("63", "Şanlıurfa", "Türkiye", 37.1591, 38.7969, 3.0),
+        City("64", "Uşak", "Türkiye", 38.6823, 29.4082, 3.0),
+        City("65", "Van", "Türkiye", 38.4891, 43.4089, 3.0),
+        City("66", "Yozgat", "Türkiye", 39.8181, 34.8147, 3.0),
+        City("67", "Zonguldak", "Türkiye", 41.4564, 31.7987, 3.0),
+        City("68", "Aksaray", "Türkiye", 38.3687, 34.0370, 3.0),
+        City("69", "Bayburt", "Türkiye", 40.2552, 40.2249, 3.0),
+        City("70", "Karaman", "Türkiye", 37.1759, 33.2287, 3.0),
+        City("71", "Kırıkkale", "Türkiye", 39.8468, 33.5153, 3.0),
+        City("72", "Batman", "Türkiye", 37.8812, 41.1293, 3.0),
+        City("73", "Şırnak", "Türkiye", 37.5164, 42.4594, 3.0),
+        City("74", "Bartın", "Türkiye", 41.6344, 32.3375, 3.0),
+        City("75", "Ardahan", "Türkiye", 41.1105, 42.7022, 3.0),
+        City("76", "Iğdır", "Türkiye", 39.9196, 44.0450, 3.0),
+        City("77", "Yalova", "Türkiye", 40.6500, 29.2667, 3.0),
+        City("78", "Karabük", "Türkiye", 41.2061, 32.6204, 3.0),
+        City("79", "Kilis", "Türkiye", 36.7184, 37.1212, 3.0),
+        City("80", "Osmaniye", "Türkiye", 37.0742, 36.2472, 3.0),
+        City("81", "Düzce", "Türkiye", 40.8438, 31.1565, 3.0),
+        // Notable International Spiritual Cities
+        City("SA-01", "Mekke-i Mükerreme", "Suudi Arabistan", 21.4225, 39.8262, 3.0),
+        City("SA-02", "Medine-i Münevvere", "Suudi Arabistan", 24.5247, 39.5692, 3.0),
+        City("PS-01", "Kudüs (Mescid-i Aksa)", "Filistin", 31.7767, 35.2345, 3.0),
+        City("DE-01", "Berlin", "Almanya", 52.5200, 13.4050, 1.0),
+        City("GB-01", "Londra", "Birleşik Krallık", 51.5074, -0.1278, 0.0),
+        City("NL-01", "Amsterdam", "Hollanda", 52.3676, 4.9041, 1.0),
+        City("FR-01", "Paris", "Fransa", 48.8566, 2.3522, 1.0)
+    )
+
+    val defaultCity: City = cities.first { it.name == "İstanbul" }
+
+    fun searchCities(query: String): List<City> {
+        if (query.isBlank()) return cities
+        val trimmed = query.trim().lowercase()
+        return cities.filter {
+            it.name.lowercase().contains(trimmed) || it.country.lowercase().contains(trimmed)
+        }
+    }
+}

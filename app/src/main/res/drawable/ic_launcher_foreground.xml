@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden crescent moon -->
+    <path
+        android:pathData="M 64.5,31 C 51.5,32 41,42.5 41,55.5 C 41,69 52,80 65.5,80 C 69,80 72.3,79.2 75.3,77.8 C 70.8,81 65.3,83 59.3,83 C 44.4,83 32.3,70.9 32.3,56 C 32.3,41.7 43.4,30.1 57.5,29 C 59.8,28.8 62.2,29.8 64.5,31 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="28"
+                android:endX="76"
+                android:endY="83"
+                android:type="linear">
+                <item android:color="#FFE873" android:offset="0.0" />
+                <item android:color="#FDBB2D" android:offset="0.5" />
+                <item android:color="#E09F1F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center mosque dome and minaret silhouette -->
+    <path
+        android:pathData="M 52,50 C 52,45 56,42 56,38 C 56,42 60,45 60,50 C 62,52 64,55 64,60 L 48,60 C 48,55 50,52 52,50 Z"
+        android:fillColor="#E6FFFFFF" />
+    
+    <!-- Mosque base and arches -->
+    <path
+        android:pathData="M 45,60 L 67,60 L 67,73 L 45,73 Z"
+        android:fillColor="#D9FFFFFF" />
+
+    <!-- Minaret on side -->
+    <path
+        android:pathData="M 69,45 L 72,45 L 72,73 L 69,73 Z M 70.5,41 L 72,45 L 69,45 Z"
+        android:fillColor="#E6FFFFFF" />
+
+    <!-- Dome arch door cutout -->
+    <path
+        android:pathData="M 53,73 L 53,66 C 53,64 55,62.5 56,62.5 C 57,62.5 59,64 59,66 L 59,73 Z"
+        android:fillColor="#0E2F32" />
+
+    <!-- 8-pointed star / morning star near crescent -->
+    <path
+        android:pathData="M 67,39 L 68.2,42.2 L 71.5,42.5 L 69,44.7 L 69.8,48 L 67,46.2 L 64.2,48 L 65,44.7 L 62.5,42.5 L 65.8,42.2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="39"
+                android:endX="72"
+                android:endY="48"
+                android:type="linear">
+                <item android:color="#FFF3A8" android:offset="0.0" />
+                <item android:color="#FFC837" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
